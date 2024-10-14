@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    height: 50px;
+}
+
+.middle {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+}
+
+.middle li {
+    margin: 0 20px;
+}
+
+
+.signin {
+    background-color: red;
+    color: Black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
